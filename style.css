@@ -2115,7 +2115,7 @@ select.mobile-device {
     margin-bottom: 30px;
     border: 1px solid #ebebeb;
     box-sizing: border-box;
-    color: #bcbcbc;
+    color: #201e1e;
     font-size: 16px;
     outline: 0 none;
     padding: 10px 25px;
@@ -2127,7 +2127,7 @@ select.mobile-device {
 }
 
 .contact_form textarea {
-    color: #bcbcbc;
+    color: #1a1919;
     padding: 20px 25px !important;
     height: 160px !important;
 }
@@ -2202,7 +2202,7 @@ select.mobile-device {
 
 .footer {
     padding: 90px 0 80px !important;
-    color: #999;
+    color: #161313;
     background-color: #1f1f1f;
 }
 
@@ -2275,12 +2275,12 @@ select.mobile-device {
 }
 
 .copyrights {
-    border-top: 1px dashed rgba(100, 26, 77, 0.1);
+    border-top: 9px dashed rgba(100, 26, 77, 0.1);
     background-color: #812f6e;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    padding: 30px 0px;
+    padding: 30px 30px;
     overflow: hidden;
 }
 
@@ -2308,7 +2308,7 @@ select.mobile-device {
 .footer-distributed .footer-company-name {
     font-weight: 300;
     margin: 0 10px;
-    color: #666;
+    color: #201b1b;
     padding: 0;
 }
 
@@ -2318,7 +2318,21 @@ select.mobile-device {
 .footer-distributed .footer-right {
     float: right;
 }
-
+.fields2 {
+    width: 100%;
+    padding: 4%;
+    border: 1px solid #cfd8dc;
+    text-align: top;
+    border-radius: 8px;
+    margin-left: -4%;
+    margin-bottom: 8%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #525559;
+    resize: none;
+  }
 
 /* The search form */
 

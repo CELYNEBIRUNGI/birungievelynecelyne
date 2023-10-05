@@ -635,7 +635,7 @@ xclip
     width: 100%;
     height: 100%;
     padding: 30px;
-    border-radius: 35%;
+    border-radius: 15%;
     margin: -390px 0px 0px 30px;
     background-color: #ffff;
     z-index: 1;

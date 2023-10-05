@@ -161,7 +161,7 @@ a,
 .lead {
     font-size: 18px;
     line-height: 30px;
-    color: #b52a2a;
+    color: #252323;
     margin: 0;
     padding: 0;
 }
@@ -498,7 +498,7 @@ xclip
 }
 
 .section.wb {
-    background-color: #ffffff;
+    background-color: #ede9e9;
 }
 
 .section.lb {
@@ -506,7 +506,7 @@ xclip
 }
 
 .section.db {
-    background-color: #6b6464;
+    background-color: #dfdbdb;
 }
 
 .section.color1 {
@@ -554,7 +554,7 @@ xclip
 }
 
 .section-title p {
-    color: #985757;
+    color: #252424;
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
@@ -568,12 +568,13 @@ xclip
     margin: 0 0 25px;
     padding: 0;
     text-transform: none;
+    color: #000;
 }
 
 .section.colorsection p,
 .section.colorsection h3,
 .section.db h3 {
-    color: #ffffff;
+    color: #423d3d;
 }
 
 
@@ -616,12 +617,19 @@ xclip
 
 .right-box-pro{
 	position: relative;
-	height: 100%;	
+	height: 100%;
+    
+    	
+    
 }
 .right-box-pro img{
 	position: relative;
-	border-radius: 35%;
-	z-index: 2;
+	z-index: 7;
+    height: 100%;
+    width: auto;
+    border-radius: 100%;
+
+
 }
 .right-box-pro .card-back {
     width: 100%;
@@ -1203,6 +1211,7 @@ xclip
 
 .message-box{
 	padding-left: 35px;
+margin-bottom: 45%;
 }
 
 .message-box h4 {
@@ -1221,23 +1230,18 @@ xclip
     padding: 0 0 10px;
     margin: 0;
     line-height: 62px;
-    margin-top: 0;
+    margin-top: 30%;
     text-transform: none;
 }
 
 .message-box p {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     color: #335f51;
+    align-items: center;
+    height: auto;
+
 }
 
-.message-box .lead {
-    padding-top: 10px;
-	font-size: 16px;
-	font-style: italic;
-	color: #1a1919;
-	padding-bottom: 10px;
-	padding-left: 15px;
-}
 
 .post-media {
     position: relative;

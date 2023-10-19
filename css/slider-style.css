@@ -95,9 +95,11 @@ ul, li {
 }
 #content #slider .mainImages {
   position: relative;
-  width: 60%;
+  width: 95%;
+  height: 60%;
   z-index: 1;
   padding-top: 15px;
+
 }
 #content #slider .mainImages .mi__img {
   position: absolute;
@@ -106,12 +108,7 @@ ul, li {
   /* -webkit-transform: scale(0.7);
   transform: scale(0.7); */
 }
-#content #slider .backgroundImages {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
+
 #content #slider .backgroundImages .bi__imgCont {
   position: absolute;
   bottom: 0;
@@ -168,7 +165,7 @@ ul, li {
   float: left;
   transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
-  padding: 4px 0px 5px 0px;
+
 }
 #content #slider .navigation ul li .li__info h4,
 #content #slider .navigation ul li .li__info-mask .mask__infoContainer h4 {

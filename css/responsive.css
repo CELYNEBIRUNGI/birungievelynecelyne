@@ -148,12 +148,12 @@
 		
 	}
 	.right-box-pro img{
-		position: relative;
 		height: 10%;
 		width: auto;
 		opacity: 1;
 		top: 5%;
-		bottom:5%
+		bottom:5%;
+		border-radius: 13%;
 	}
 
 	.right-box-pro .card-back {

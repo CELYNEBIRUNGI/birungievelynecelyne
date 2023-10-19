@@ -51,7 +51,7 @@
 		text-align: center;
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 900px) {
 	#mainNav {
 		background-color: #ffffff;
 	}
@@ -107,7 +107,7 @@
 	  }
 	  
 
-@media only screen and (min-width: 280px) and (max-width: 599px) {
+@media only screen and (min-width: 280px) and (max-width: 900px) {
 	#mainNav {
 		background-color: #ffffff;
 	}
@@ -140,6 +140,47 @@
 		font-size: 14px;
 	}
 	
+	.right-box-pro{
+		position: relative;
+		height: 100%;
+		
+			
+		
+	}
+	.right-box-pro img{
+		position: relative;
+		z-index: 7;
+		height: 100%;
+		width: auto;
+		border-radius: 60%;
+		opacity: 7;
+		top: 5%;
+		bottom:5%
+	
+	
+	}
+	.right-box-pro .card-back {
+		width: 100%;
+		height: 100%;
+		padding: 30px;
+		border-radius: 15%;
+		margin: -390px 0px 0px 30px;
+		background-color: #ffff;
+		z-index: 1;
+		position: relative;
+	}
+	
+	.right-box-pro .card-front {
+		width: 100%;
+		height: 100%;
+		padding: 30px;
+		border-radius: 10px;
+		margin: -320px 0px 0px -36px;
+		background-color: transparent;
+		border: solid 2px #ffff;
+		z-index: 1;
+		position: relative;
+	}
 	
 	.message-box{
 		padding: 0px;
